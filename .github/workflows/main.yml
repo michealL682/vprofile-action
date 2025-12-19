@@ -32,7 +32,7 @@ jobs:
       - name: Sonar Scanner Analysis
         run: |
           sonar-scanner \
-          -Dsonar.host.url=${{secrets.SONAR_URL}} \
+          -Dsonar.host.url=${{ secrets.SONAR_URL }} \
           -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
           -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }} \
           -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }} \
