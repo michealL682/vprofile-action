@@ -43,7 +43,7 @@ jobs:
           -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/
 
         # Check the Quality Gate status
-      - #name: SonarQube Quality Gate Check
+        #name: SonarQube Quality Gate Check
        # id: sonarqube-quality-gate-check
        # uses: sonarsource/sonarqube-quality-gate-action@master
         # Force to fail step after specified timeout (in minutes)
